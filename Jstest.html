@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java demo</title>
+</head>
+<body>
+    <p id="testParagraph"></p>
+    <form>
+        <input id="number" type="number" name="value">
+        <br>
+        <button type="button" onclick="demofunction()">click me</button>
+    </form>
+<script>
+        var message="hello Class"
+        document.write("hello world")
+        chosenelement=document.getElementById("testParagraph")
+        chosenelement.innerHTML="im a turnip"
+        alert(message)
+
+
+        function demofunction(){
+            var x = document.getElementById("number").value;
+            y=x*x
+            alert(y)
+        }
+
+</script>
+</body>
+</html>
